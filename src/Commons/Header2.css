@@ -12,6 +12,11 @@
   display: none;
 }
 
+.home-head h2{
+  margin-left: 60px;
+    
+}
+
 /* .header2-desktop {
   display: flex;
   align-items: center;

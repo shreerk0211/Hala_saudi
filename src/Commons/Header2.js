@@ -134,16 +134,28 @@ function Header2() {
 
             <div className='header2icon1'>
               <FaBus />
+              <Link className='linenone' to={'/travel'}>
               <div className='header2-txt'>
                 <p>Travel</p>
               </div>
+              </Link>
             </div>
 
             <div className='header2icon1'>
               <GiIsland />
+              <Link className='linenone' to={'/organizer'}>
               <div className='header2-txt'>
                 <p>Organized</p>
               </div>
+              </Link>
+
+               
+              <div className='home-head'>
+                <Link to={'/'}>
+                 <h2>Home</h2>
+                 </Link>
+              </div>
+
             </div>
           </div>
         </div>

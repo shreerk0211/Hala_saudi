@@ -50,7 +50,7 @@ function Home() {
                </div>
                <div className='home-icons-web'>
                   <div className='icon1'>
-                  <Link className='linenone' to={'/'}>
+                  <Link className='linenone' to={'/organizer'}>
                      <GiIsland />
                      </Link>
                      <div className='icon-p'>
@@ -58,7 +58,7 @@ function Home() {
                      </div>
                   </div>
                   <div className='icon1'>
-                  <Link className='linenone' to={'/'}>
+                  <Link className='linenone' to={'/travel'}>
                      <FaBus />
                      </Link>
                      <div className='icon-p'>

@@ -7,6 +7,9 @@ import Trip from './Component/Trip'
 import Flight from './Component/Flight'
 import Activity from './Component/Activity'
 import Hotel from './Component/Hotel'
+import Travel from './Component/Travel'
+import Organizer from './Component/Organizer'
+import Aboutus from './Component/Aboutus'
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
         <Route path='/flight' element={<Flight/>}/>
         <Route path='/activity' element={<Activity/>}/>
         <Route path='/hotel' element={<Hotel/>}/>
+        <Route path='/travel' element={<Travel/>}/>
+        <Route path='/organizer' element={<Organizer/>}/>
+        {/* <Route path='/aboutus' element={<Aboutus/>}/> */}
       </Routes>
     </div>
    </Router>
