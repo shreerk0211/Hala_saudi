@@ -182,7 +182,7 @@ function Home() {
          <div className={`sidebar ${sidebarOpen ? 'sidebar-open' : ''}`}>
             <div className='home-icons'>
                <div className='icon1'>
-                  <Link className='linenone' to={'/organize'}>
+                  <Link className='linenone' to={'/organizer'}>
                      <GiIsland />
                   </Link>
                   <div className='icon-p'>
