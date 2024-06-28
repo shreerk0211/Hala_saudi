@@ -25,7 +25,7 @@ function App() {
         <Route path='/hotel' element={<Hotel/>}/>
         <Route path='/travel' element={<Travel/>}/>
         <Route path='/organizer' element={<Organizer/>}/>
-        <Route path='/aboutus' element={<Aboutus/>}/>
+        {/* <Route path='/aboutus' element={<Aboutus/>}/> */}
       </Routes>
     </div>
    </Router>

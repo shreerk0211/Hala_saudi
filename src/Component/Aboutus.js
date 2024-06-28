@@ -1,20 +1,20 @@
-import React from 'react'
-import './Aboutus.css'
-import Header2 from '../Commons/Header2'
+// import React from 'react'
+// import './Aboutus.css'
+// import Header2 from '../Commons/Header2'
 
-function Aboutus() {
-  return (
-    <div className='about-main'>
-       <div className='about-head'>
-            <Header2/>
-       </div>
+// function Aboutus() {
+//   return (
+//     <div className='about-main'>
+//        <div className='about-head'>
+//             <Header2/>
+//        </div>
           
-        <div className='about-main2'>
+//         <div className='about-main2'>
                 
-        </div>  
+//         </div>  
 
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default Aboutus
+// export default Aboutus
