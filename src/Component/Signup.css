@@ -1,0 +1,403 @@
+.signup-maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(177, 171, 171), #662D91 50%, #662D91); 
+}
+
+.nav-homebtn {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 52px;
+    margin-left: 100vh;
+}
+
+.logohalal img {
+    margin-left: -375px;
+    margin-bottom: 70vh;
+}
+
+.signtitle1 {
+    padding-top: 10px; 
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.signtxt1 {
+    display: flex;
+    justify-content: center;
+}
+
+.signtxt1 h4 {
+    font-weight: lighter;
+}
+
+.form11 {
+    background: transparent;
+    width: 500px;
+    margin-bottom: 15vh;
+    margin-left: 5vh;
+}
+
+.fstname11 input {
+    padding: 20px;
+    margin-left: 5vh;
+    width: 199px; 
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.fstname11 :placeholder-shown {
+    width: 199px; 
+    height: 30px;
+}
+
+.fstname00 input {
+    padding: 20px;
+    border: none;
+    width: 430px;
+    height: 30px; 
+    margin-left: 5vh;
+    border-radius: 20px;
+}
+
+.fstname00 :placeholder-shown {
+    width: 430px;
+    height: 30px; 
+}
+
+.policy1 {
+    margin-left: 6vh;
+}
+
+.policy1 a {
+    color: white;
+    font-weight: bold;
+}
+
+.btn1 {
+    margin-left: 6vh;
+}
+
+.btn1 button {
+    background-color: white;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* Media Query */
+@media (min-width: 1920px) and (max-height: 1200px) {
+    .signup-maindiv {
+        height: 90vh;
+    }
+    
+    .nav-homebtn {
+        font-size: 35px;
+        margin-left: 90vh;
+    }
+    
+    .logohalal img {
+        margin-left: -350px;
+        margin-bottom: 65vh;
+    }
+    
+    .form11 {
+        width: 550px;
+        margin-bottom: 10vh;
+    }
+    
+    .fstname11 input {
+        width: 220px;
+        height: 35px;
+    }
+    
+    .fstname00 input {
+        width: 450px;
+        height: 35px;
+    }
+    
+    .policy1 {
+        margin-left: 7vh;
+    }
+    
+    .btn1 button {
+        height: 35px;
+        width: 90px;
+    }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .signup-maindiv {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+    }
+    
+    .nav-homebtn {
+        font-size: 20px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .logohalal img {
+        margin-left: 0;
+        margin-bottom: 20px;
+        width: 100px;
+    }
+    
+    .form11 {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .fstname11 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .fstname11 input {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .fstname00 input {
+        width: 100%;
+        margin: 10px 0;
+    }.signup-maindiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(to bottom, rgb(177, 171, 171), #662D91 50%, #662D91); 
+    }
+    
+    .nav-homebtn {
+        color: white;
+        font-weight: bolder;
+        font-size: 30px;
+        margin-top: 52px;
+        margin-left: 100vh;
+    }
+    
+    .logohalal img {
+        margin-left: -375px;
+        margin-bottom: 70vh;
+    }
+    
+    .signtitle1 {
+        padding-top: 10px; 
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .signtxt1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .signtxt1 h4 {
+        font-weight: lighter;
+    }
+    
+    .form11 {
+        background: transparent;
+        width: 500px;
+        margin-bottom: 15vh;
+        margin-left: 5vh;
+    }
+    
+    .fstname11 input {
+        padding: 20px;
+        margin-left: 5vh;
+        width: 199px; 
+        height: 30px;
+        border: none;
+        border-radius: 20px;
+    }
+    
+    .fstname11 :placeholder-shown {
+        width: 330px; 
+        height: 30px;
+    }
+    
+    .fstname00 input {
+        padding: 20px;
+        border: none;
+        width: 430px;
+        height: 30px; 
+        margin-left: 5vh;
+        border-radius: 20px;
+    }
+    
+    .fstname00 :placeholder-shown {
+        width: 330px;
+        height: 30px; 
+    }
+    
+    .policy1 {
+        margin-left: 6vh;
+    }
+    
+    .policy1 a {
+        color: white;
+        font-weight: bold;
+    }
+    
+    .btn1 {
+        margin-left: 6vh;
+    }
+    
+    .btn1 button {
+        background-color: white;
+        height: 30px;
+        width: 80px;
+        border: none;
+        border-radius: 20px;
+    }
+    
+    /* Media Query */
+    @media (min-width: 1920px) and (max-height: 1200px) {
+        .signup-maindiv {
+            height: 90vh;
+        }
+        
+        .nav-homebtn {
+            font-size: 35px;
+            margin-left: 90vh;
+        }
+        
+        .logohalal img {
+            margin-left: -350px;
+            margin-bottom: 65vh;
+        }
+        
+        .form11 {
+            width: 550px;
+            margin-bottom: 10vh;
+        }
+        
+        .fstname11 input {
+            width: 220px;
+            height: 35px;
+        }
+        
+        .fstname00 input {
+            width: 450px;
+            height: 35px;
+        }
+        
+        .policy1 {
+            margin-left: 7vh;
+        }
+        
+        .btn1 button {
+            height: 35px;
+            width: 90px;
+        }
+    }
+    
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+        .signup-maindiv {
+            height: auto;
+            padding: 20px;
+            flex-direction: column;
+        }
+        
+        .nav-homebtn {
+            font-size: 18px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .logohalal img {
+            margin-left: 0;
+            margin-bottom: 20px;
+            width: 80px; /* Reduce size */
+        }
+        
+        .form11 {
+            width: 100%;
+            margin-left: 0;
+        }
+        
+        .signtitle1 h1 {
+            font-size: 24px; /* Reduce font size */
+        }
+        
+        .signtxt1 h4 {
+            font-size: 14px; /* Reduce font size */
+        }
+        
+        .fstname11 {
+            display: flex;
+            flex-direction: column;
+            margin-left: 0;
+            gap: 15px;
+        }
+    
+        .fstname11 input {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px; /* Reduce padding */
+            height: 25px; /* Reduce height */
+            font-size: 14px; /* Reduce font size */
+        }
+        
+        .fstname00 input {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px; /* Reduce padding */
+            height: 25px; /* Reduce height */
+            font-size: 14px; /* Reduce font size */
+        }
+        
+        .policy1 {
+            margin-left: 0;
+            text-align: center;
+        }
+        
+        .policy1 span {
+            font-size: 12px; /* Reduce font size */
+        }
+        
+        .btn1 {
+            margin-left: 0;
+            text-align: center;
+        }
+        
+        .btn1 button {
+            width: 80px; /* Reduce width */
+            height: 25px; /* Reduce height */
+            font-size: 14px; /* Reduce font size */
+        }
+        
+        .registers p {
+            font-size: 12px; /* Reduce font size */
+        }
+    }
+    
+    
+    .policy1 {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .btn1 {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .btn1 button {
+        width: 230px !important;
+    }
+}
