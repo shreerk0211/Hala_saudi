@@ -125,7 +125,7 @@ function Header2() {
 
             <div className='header2icon1'>
               <FaHotel />
-              <Link className='linenone' to={'/hotels'}>
+              <Link className='linenone' to={'/hotel'}>
               <div className='header2-txt'>
                 <p>Hotels</p>
               </div>
