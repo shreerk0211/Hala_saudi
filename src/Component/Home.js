@@ -157,7 +157,7 @@ function Home() {
             </div>
             <div className='foot-points'>
                <div className='foot-point1'>
-                  <li>About</li>
+                 <Link to="/aboutus"> <li className='abou'>About</li></Link>
                   <li>About us</li>
                   <li>Features</li>
                   <li>News & Blogs</li>
