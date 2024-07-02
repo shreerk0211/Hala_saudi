@@ -1,0 +1,83 @@
+.page-container {
+  font-family: Arial, sans-serif;
+  background: url("./Assets/Img/home/slide5.jpg") no-repeat center center/cover;
+  height: calc(100vh - 45px);
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  margin-top: 50px; /* Adjusted margin for spacing */
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.banner-content {
+  max-width: 600px;
+}
+
+.banner-content h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.banner-content p {
+  font-size: 1.5em;
+}
+
+.booking-form {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 650px;
+  margin: 0 auto; /* Centering the form horizontally */
+  display: flex;
+  flex-wrap: wrap; /* Allowing form items to wrap */
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px; /* Adjusted margin for spacing */
+}
+
+.form-group {
+  flex: 1; /* Allowing form items to expand */
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white; /* Adjusted label color */
+}
+
+.form-group input,
+.form-group select {
+  width: 100%; /* Full width inputs */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.search-btn:hover {
+  background-color: #45a049;
+}
+
+/* dropdown */

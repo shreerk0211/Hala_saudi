@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.abou{
+color: white;
+text-decoration: none;
+}
+.homemain {
+    background-color: #662D91;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+video {
+    width: 100%;
+    height: 99vh;
+    object-fit: cover;
+}
+
+.linenone {
+    text-decoration: none;
+    color: white;
+}
+
+.home-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #662D91;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+}
+
+.home-icons-web {
+    display: flex;
+    gap: 1rem;
+}
+.home-icons{
+    display: none;
+}
+
+.icon1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+
+    svg{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.icon-p p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-li {
+    display: flex;
+    gap: 1rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.home-nav img {
+    width: 150px;
+    height: auto;
+}
+
+.home-content {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.home-heading {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 2rem;
+    text-align: right;
+}
+
+.page2 {
+    padding: 2rem 5%;
+}
+
+.page2-head {
+    text-align: center;
+    color: white;
+}
+
+.page2-head h1 {
+    font-size: 2rem;
+}
+
+.page2-head p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.page2-grid img {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.desert img {
+    width: 100%;
+}
+
+.page3-title {
+    position: relative;
+    top: -10vh;
+    left: 5%;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.page4 {
+    padding: 2rem 5%;
+}
+
+.page4-content p {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.page4-img {
+    margin-top: 2rem;
+}
+
+.slider-container {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slider-container .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-container .slick-slide img {
+    height: auto;
+    width: 100%;
+    /*   max-width: 600px; */
+}
+
+.footer-home {
+    background-color: black;
+    padding: 2rem 5%;
+    color: white;
+    text-align: center;
+}
+
+.foot-points {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.foot-point1 li {
+    padding: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+    .home-icons-web {
+        display: none;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 100%;
+        background-color: #662D91;
+        z-index: 1000;
+        padding-top: 2rem;
+        overflow-y: auto;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    .sidebar-open {
+        transform: translateX(0);
+    }
+
+    .home-icons {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        gap: 3rem;
+    }
+
+    .sidebar-icon {
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        font-size: 2rem;
+        color: white;
+        z-index: 1001;
+        cursor: pointer;
+    }
+
+    .home-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-li {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .home-nav img {
+        margin-top: 50px;
+    }
+
+    .home-content,
+    .home-heading {
+        position: static;
+        transform: none;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .page3-title {
+        top: 0;
+        left: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .home-icons {
+        display: block;
+    }
+
+    .sidebar-icon {
+        display: block;
+    }
+}
